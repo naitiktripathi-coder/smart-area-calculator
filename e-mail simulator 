@@ -11,7 +11,7 @@ if "@" in sender and "." in sender:
 else:
     print("Invalid Email ❌")
     sys.exit()
-rc= input("Type the email you want to send ==")
+rc= input("Type the email you want to send =:")
 if "@" in rc and "." in rc:
     if rc.index("@") < rc.rindex("."):
         pass
@@ -88,6 +88,7 @@ if send == "send" or send== "SEND" or send== "Send" :
     print("Status: Delivered ✅")
 elif send == "cancel" or send== "CANCEL" or send== "Cancel" :
     print("\n❌ Email Cancelled")
+    sus.exit
 
 else:
     print("\n⚠️ Invalid option                                Sorry please try again ")
@@ -98,6 +99,7 @@ else:
             print("Status: Delivered ✅")
     elif send.lower()== "cancel" :
         print("\n❌ Email Cancelled")
+        sys.exit()
     else :
     	print("\n⚠️ Invalid option                                Sorry...... ")
     	sys.exit()
