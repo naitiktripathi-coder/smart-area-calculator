@@ -1,31 +1,42 @@
-#smart-python-projects
-A beginner-friendly smart area and perimeter calculator built in Python with upgrade system, OTP verification, and colorful CLI interface.
-“To ensure proper execution of this project, please install the required library colorama by running pip install colorama before starting the program.
-“To run this project successfully, first install the required library colorama using the command pip install colorama, then execute the Python file.”“This project uses the colorama library for colored text output. Before running the program, make sure to install it using the command pip install colorama. After installation, you can run the Python file normally.”
+# Smart Area Calculator
 
+Welcome to the **Smart Area Calculator** project! This project allows users to calculate the area of various geometric shapes, providing an easy-to-use interface and accurate calculations.
 
-Email Simulator (Python)
+## Features:
+- Calculate the area of different shapes including:
+  - Circle
+  - Rectangle
+  - Triangle
+  - Square
+- User-friendly interface
+- Real-time calculation
 
-About
-This is a simple email simulator project made using Python.
-It works in the terminal and allows users to simulate email actions.
-Features
-Send email
-View inbox
-Delete email
-Simple text-based interface
-How to Run
-Run the file using:
-python filename.py
+## Installation:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/naitiktripathi-coder/smart-python-project.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd smart-python-project
+   ```
+3. Install the necessary dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Purpose
-This project was created to practice Python basics like:
-Functions
-Loops
-Lists
-User input
-Mainly ffor practicing and teach the student about the sending the E-MAIL 📩 
+## Usage:
+1. Run the main script:
+   ```bash
+   python main.py
+   ```
+2. Follow the on-screen instructions to select a shape and input the necessary dimensions.
 
-Author
-Naitik Tripathi
+## Contribution:
+Contributions are welcome! Please create a pull request with your proposed changes.
 
+## License:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact:
+For any inquiries, please contact naitiktripathi-coder@gmail.com.
