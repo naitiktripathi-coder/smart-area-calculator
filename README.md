@@ -4,7 +4,6 @@ Welcome to the **Smart Area Calculator** project! This project allows users to c
 
 ## Features:
 - Calculate the area of different shapes including:
-  - Circle
   - Rectangle
   - Triangle
   - Square
@@ -22,7 +21,7 @@ Welcome to the **Smart Area Calculator** project! This project allows users to c
    ```
 3. Install the necessary dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.colorama
    ```
 
 ## Usage:
